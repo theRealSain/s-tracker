@@ -1,0 +1,250 @@
+@import"https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+
+body {
+  background: linear-gradient(271deg, #bcacff, #ffffff);
+  background-size: 400% 400%;
+  font-weight: bold;
+
+  -webkit-animation: AnimationName 25s ease infinite;
+  -moz-animation: AnimationName 25s ease infinite;
+  animation: AnimationName 25s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 52%}
+  50%{background-position:100% 49%}
+  100%{background-position:0% 52%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 52%}
+  50%{background-position:100% 49%}
+  100%{background-position:0% 52%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 52%}
+  50%{background-position:100% 49%}
+  100%{background-position:0% 52%}
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+}
+
+
+#nav-logo{
+  width: 40%;
+  padding-left: 10%;
+  font-size: 1.8rem;
+  text-transform: lowercase;
+  margin-top: 50px;
+}
+
+
+
+section.first{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.main{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+#first-logo{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.first-line{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.letters{
+  display: grid;
+  grid-template-columns: repeat(3,minmax(20rem,1fr));
+  gap: 80px;
+}
+
+
+.letter{
+  width: fit-content;
+  margin: auto;
+  padding: 30px 120px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.322);
+  background-color: white;
+}
+.letter-head{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+}
+span.letter-line{
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+
+
+
+
+
+
+section.desc{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.card-login{
+  margin: auto;
+  display: block;
+  border: none;
+  background-color: rgb(95, 51, 255);
+  padding: 8px 15px;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: 0.7rem;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.849);
+  cursor: pointer;
+}
+.card-login a{
+  color: white;
+}
+.card-login:hover{
+  background-color: rgb(72, 22, 255);
+}
+.card-login:active{
+  box-shadow: none;
+}
+
+span.reg{
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
+span.reg a{
+  color: #6200ff;
+}
+span.reg a:hover{
+  text-decoration: underline;
+}
+
+.details>h3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: -20px;
+}
+.details>p{    
+  text-align: center;
+  font-size: 1rem;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+
+p.final{      
+  font-size: 15px;
+  padding: 20px 40px 0px 0px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////RESPONSIVE///////////////////////////////////////*/
+@media (max-width: 1511px){
+
+}
+
+
+
+@media (max-width: 1192px){
+
+}
+
+
+
+@media (max-width: 1026px){
+
+}
+
+
+
+@media (max-width: 790px){
+
+}
+
+
+
+
+@media (max-width: 706px){
+  .main{
+    font-size: 2rem;
+  }
+  .first-line{
+        width: 200px;
+        text-align: center;
+  }
+
+}
+
+@media (max-width: 568px){
+  .main{
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 450px){
+
+}
+
+@media (max-width: 390px){
+
+}
+
+@media (max-width: 385px){
+  .main{
+    font-size: 1.8rem;
+  }
+  .first-line{
+    font-size: 0.95em;
+    width: 180px;
+    text-align: center;
+  }
+
+  #nav-logo{
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 305px){
+
+}

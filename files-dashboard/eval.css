@@ -1,0 +1,81 @@
+.qns{
+    background-color: rgba(0, 255, 255, 0);
+    width: 90%;
+    padding: 20px;
+    margin: 50px 0px 0px 60px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.281);
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.qns ul{
+    background-color: rgba(169, 169, 169, 0);
+    padding: 10px;
+    list-style-type: none;
+    margin-bottom: 70px;
+}
+.qns ul li{
+    margin-top: 20px;
+    background-color: rgb(234, 233, 241);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.363);
+    border-radius: 5px;
+    padding: 20px 20px;
+    font-weight: bold;
+}
+.qnListHead{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.qnListContent{
+    font-size: 1.2rem;
+}
+
+.qnsParaHead{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.qnsPara{
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 0, 0);
+    width: 90%;
+    font-weight: 500;
+}
+
+#eval{
+    margin-top: -50px !important;
+}
+
+.alert{
+    font-weight: bolder;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+
+section.evaluation{
+    font-weight: bold;
+    margin: 80px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px #0000004f;
+}
+
+
+.eval-head{
+    font-weight: bolder;
+    margin: 40px;
+    text-transform: uppercase;
+}
+.eval-subhead{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 80px;
+}
+.eval-desc{
+    margin: 30px 80px;
+    text-align: justify;
+}

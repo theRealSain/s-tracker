@@ -1,0 +1,11 @@
+@media print {
+    /* Hide the navigation menu and footer */
+    nav, aside {
+      display: none;
+    }
+  
+    /* Increase the font size for easier reading */
+    body {
+      font-size: 13px;
+    }
+  }

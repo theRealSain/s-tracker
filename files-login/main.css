@@ -1,0 +1,122 @@
+section.first{
+  background-color: rgba(0, 128, 0, 0);
+  margin-top: 300px;
+  position: relative;
+}
+
+.header-logo{
+  position: relative;
+  display: block;
+  margin: auto;
+  background-color: rgba(0, 128, 0, 0);
+  width: fit-content;
+}
+
+span.logo{
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  color: rgb(87, 87, 87);
+  text-transform: lowercase;
+}
+
+.desc{
+  position: relative;
+  background-color: rgba(255, 0, 0, 0);
+  width: fit-content;
+  margin: auto;
+  display: block;
+  padding: 20px 90px ;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.329);
+  border-radius: 8px;
+}
+
+h1.desc-head{
+  position: relative;
+  font-size: 1.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+p.desc-para{
+  position: relative;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+
+button.login a{
+  text-decoration: none;
+}
+
+button.login{
+  margin: auto;
+  display: block;
+  background-color: rgb(102, 75, 199);
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.534);
+  cursor: pointer;
+}
+button.login:hover{
+  background-color: rgb(85, 54, 196);
+}
+button.login:active{
+  background-color: rgb(85, 54, 196);
+  box-shadow: none;
+}
+
+@media (max-width:390px){
+  section.first{
+    margin-top: 250px;
+  }
+  .desc{
+    width: 40%;
+    padding: 10px 50px ;
+  }
+  h1.desc-head{
+    font-size: 1.2rem;
+  }
+  p.desc-para{
+    font-size: 0.8rem;
+  }
+  span.logo{
+    font-size: 1.1rem;
+  }
+  .header-logo img{
+    width: 15px;
+  }
+  button.login{
+    padding: 5px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width:262px){
+  .desc{
+    width: 50%;
+    padding: 5px 20px ;
+  }
+  h1.desc-head{
+    font-size: 0.9rem;
+  }
+  p.desc-para{
+    font-size: 0.6rem;
+  }
+  span.logo{
+    font-size: 0.7rem;
+  }
+  .header-logo img{
+    width: 10px;
+  }
+  button.login{
+    padding: 5px 15px;
+    font-size: 0.8rem;
+  }
+}

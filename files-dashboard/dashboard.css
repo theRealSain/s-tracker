@@ -1,0 +1,539 @@
+.layout-page{
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.left-column{
+    background-color: #00ffff00;
+}
+
+.head-card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.192);
+    background-color: white;
+    width: 983px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 125px;
+    padding: 20px;
+}
+h1.welcome{
+    margin-top: 0px;
+    font-weight: bolder;
+}
+.wel-text{
+    text-align: justify;
+    font-weight: 500;
+}
+
+.main-cards{
+    background-color: #00ffff00;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(20rem,1fr));
+    gap: 600px;
+}
+
+.cards1{
+    background-color: #00ffff00;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(20rem,1fr));
+    gap: 50px 196px;
+    width: 100%;
+    margin: 30px 0px 0px 125px;
+}
+.letter{
+    background-color: white;
+    border-radius: 10px;
+    width: 145%;
+    height: 235px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.308);
+}
+
+.layout-head{
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: fit-content;
+    margin-left: -50px;
+    z-index: 1;
+}
+
+
+.cards2{
+    background-color: #00ffff00;
+    display: grid;
+    float: right;
+    width: 30%;    
+}
+.pletter{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 380px;
+    height: 713px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.308);
+    margin-top: -714px;
+    margin-left: -14px;
+}
+
+
+
+span.number{
+    color: #697A8D;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+    z-index: 1;
+}
+span.n{
+    color: #697A8D;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+p.group-count{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #697A8D;
+    margin-left: 10px;
+    width: 70%;
+    height: 130px;
+    padding: 10px;
+}
+.scroll{
+    padding: 0px !important;
+    overflow: auto;
+}
+
+.teach{
+    width: 160px;
+    float: right;
+    margin-top: -63px;
+}
+.ca-teach{
+    width: 160px;
+    float: right;
+    margin-top: -93px;
+}
+.teachs{
+    width: 260px;
+    float: right;
+    margin-top: -20px;
+}
+.studs{
+    width: 229px;
+    margin-top: -8px;
+    float: right;
+}
+.courses{
+    width: 281px;
+    float: right;
+    margin-top: -58px;
+}
+
+.eval{
+    width: 300px;
+    margin-top: -30px;
+}
+
+#svg-home{
+    margin-top: -5px;
+}
+
+#active-side-menu{
+    background-color: #2f00ff3d;
+    border-radius: 6px;
+    width: 240px;
+    margin-left: 16px;
+    font-weight: 500;
+    color: #755dff !important;
+}
+
+.user-round{
+    background-color: rgb(189, 189, 189);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+  }
+
+.performance{
+    margin-right: 25px;
+    margin-left: 0px;
+    filter: drop-shadow(0px 0px 1px black) !important;
+}
+
+.active-icon{
+    margin-right: 25px;
+    margin-left: 0px;
+    fill: #755dff;
+}
+
+.side-icons{
+    margin-right: 15px;
+}
+
+
+
+.p-hyp{
+    color: #697A8D;
+}
+.p-hyp:hover{
+    color: #697A8D;
+}
+
+.prof{
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+.ca-prof{
+    width: 200px;
+    float: right;
+    margin-top: -120px;
+}
+.ca-prof-card{
+    font-size: 1rem;
+    color: inherit;
+    font-weight: 500;
+}
+
+
+.dash-profile table{
+    width: 90%;
+    margin-left: auto;
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.dash-profile table th{
+    padding: 20px 20px;
+    font-weight: bolder;
+}
+.dash-profile table td{
+    padding: 20px 20px;
+    text-align: left;
+    width: fit-content;
+}
+
+.dash-profile table tr:nth-child(even){
+    background-color: inherit;
+}
+
+
+
+/*****************************************class-admin*************************************************/
+
+#ca-head-card{
+    width: 84%;
+    margin-left: 8%;
+}
+
+#ca-cards{
+    gap: 40px 390px;
+}
+.ca-letter{
+    background-color: white;
+    border-radius: 10px;
+    width: 215%;
+    height: 235px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.308);
+}
+/*****************************************class-admin*************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************RESPONSIVE*******************************************/
+
+@media (max-width: 1908px){
+    .main-cards{
+        grid-template-columns: repeat(1,minmax(23rem,1fr));
+    }
+    .head-card{
+        width: 84%;
+        margin-left: 7.8%;
+        margin-right: 50%;
+    }
+    .cards1{
+        width: 84%;
+        margin-left: 7.8%;
+        gap: 30px 0px;
+    }
+    #right-card{
+        margin-left: 15px;
+    }
+    .letter{
+        width: 97%;
+    }
+    #ca-cards{
+        gap: 40px 40px;
+    }
+    .ca-letter{
+        width: 100%;
+    }
+    .pletter{
+        display: none;
+    }    
+    .studs{
+        width: 250px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 1399px){
+    .teachs{
+        width: 230px;
+        margin-top: -2px;
+    }
+    .ca-teach{
+        width: 140px;
+        margin-top: -68px;
+    }
+    .studs{
+        width: 220px;
+        margin-top: -5px;
+    }
+    .teach{
+        width: 140px;
+        margin-top: -35px;
+    }
+    .courses{
+        width: 220px;
+        margin-top: -15px;
+    }
+}
+
+@media (max-width: 991px){
+    .ca-teach{
+        width: 120px;
+        float: right;
+        margin-top: -43px;
+    }
+    .teachs{
+        width: 180px;
+        margin-top: 28px;
+    }
+    .studs{
+        width: 180px;
+        margin-top: 23px;
+    }
+}
+
+@media (max-width: 875px){
+    .layout-head{
+        font-size: 1.3rem;
+    }
+    .courses{
+        width: 180px;
+        margin-top: 10px;
+    }
+    .ca-teach{
+        width: 110px;
+        float: right;
+        margin-top: -27px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 767px){
+    .cards1{
+        grid-template-columns: repeat(1,minmax(23rem,1fr));
+    }
+    #right-card{
+        margin-left: 0px;
+    }
+    .letter{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+    .ca-teach{
+        position: relative;
+        width: 180px;
+        float: right;
+        margin-top: -122px;
+    }
+}
+
+@media (max-width: 455px){
+    .letter{
+        margin-right: 10%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+    .layout-head{
+        font-size: 1.6rem;
+    }    
+
+    .teach{
+        width: 169px;
+        margin-top: -77px;
+    }
+    .teachs{
+        width: 257px;
+        margin-top: -25px;
+    }
+    .studs{
+        width: 243px;
+        margin-top: -20px;
+    }
+    .courses{
+        width: 271px;
+        margin-top: -46px;
+    }
+}
+
+@media (max-width: 575px){
+    .teach {
+        width: 143px;
+        margin-top: -44px;
+    }
+    .ca-teach{
+        width: 150px;        
+        margin-top: -83px;
+    }
+    .teachs {
+        width: 234px;
+        margin-top: -10px;
+    }
+    .studs {
+        width: 225px;
+        margin-top: -8px;
+    }
+    .courses {
+        width: 234px;
+        margin-top: -23px;
+    }
+    .ca-prof{
+        width: 150px;
+    }
+}
+
+@media (max-width: 455px){
+    .ca-teach{
+        width: 120px;
+        float: right;
+        margin-top: -43px;        
+    }    
+}
+
+@media (max-width: 418px){
+    .layout-head{
+        font-size: 1.2rem;
+    }
+    .letter{
+        width: 350px;
+        margin-right: 10%;
+    }
+    .teach {
+        width: 122px;
+        margin-top: -11px;
+    }
+    .teachs {
+        width: 216px;
+        margin-top: 9px;
+    }
+    .studs {
+        width: 198px;
+        margin-top: 17px;
+    }
+    .courses {
+        width: 190px;
+        margin-top: 9px;
+    }
+}
+
+@media (max-width: 416px){
+    .layout-head{
+        font-size: 1rem;
+        margin-left: -31px;
+    }
+    .letter{
+        width: 250px;
+        margin-left: 5%;
+    }
+    span.number{
+        font-size: 12px;
+        margin-left: 2px;
+    }
+    #right-card{
+        margin-left: 5%;
+    }
+    .teach {
+        display: none;
+    }
+    .ca-teach{
+        display: none;
+    }
+    .teachs {
+        display: none;
+    }
+    .studs {
+        display: none;
+    }
+    .courses {
+        display: none;
+    }
+    .ca-prof{
+        display: none;
+    }
+    .ca-prof-card{    
+        font-size: 12px;
+    }
+    #card-link{
+        width: fit-content;
+    }
+}
+
+@media (max-width: 356px){
+    .welcome{
+        font-size: 1.1rem;
+    }
+    #ca-wel{
+        font-size: 13px;
+    }
+    .layout-head{
+        font-size: 12px;
+        margin-left: -35px;
+    }
+    .layout-head svg{
+        width: 15px;
+    }
+    .cards1{
+        width: 200px;
+    }
+    .letter{
+        width: 180px;
+        margin-left: 2%;
+    }
+    #right-card{
+        margin-left: 2%;
+    }
+    .ca-letter{
+        width: 180px;
+    }
+}

@@ -1,0 +1,83 @@
+
+/****************INDEX.PHP********************/
+
+@media screen and (max-width: 480px) {
+    #nav-logo{
+        font-size: 1.3rem;
+    }
+    #nav-logo img{
+        width: 30px;
+    }
+    .main{
+        font-size: 1.5rem;
+    }
+    #first-logo{
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .first-line{
+        text-align: center;
+        font-size: 1rem;    
+        margin: auto;
+    }
+
+    .letters{
+        background-color: #00ffff00;
+        grid-template-columns: repeat(1,minmax(20rem,1fr));
+        gap: 80px;    
+        margin-top: 50px;
+        width: 90%;
+    }
+    .letter{
+        padding: 20px 50px; 
+        margin: auto;
+        width: 90%;
+    }
+    .letter-head{
+        font-size: 1.2rem;
+    }
+    .letter-line{
+        font-size: 0.8rem;
+    }
+    .card-login{
+        padding: 8px 15px;
+        border-radius: 4px;
+        font-size: 0.6rem;
+        font-weight: 800;
+    }
+    span.reg{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    #nav-logo{
+        font-size: 1.1rem;
+        padding-left: 5%;
+    }
+    #nav-logo img{
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .letter{
+        margin: auto;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 320px){
+    .letter{
+        margin-left: 5%;
+    }
+    #admin-letter{
+        margin-left: 10%;
+    }
+}
+
+
+
+
+/****************************************ca-courses.php******************************************/
+

@@ -1,0 +1,198 @@
+
+section.profile-area{
+    background-color: rgba(0, 255, 255, 0);
+    padding: 20px;
+    margin: 70px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.212);
+    font-weight: bold;
+    width: 80%;
+
+}
+.head{
+    font-weight: bolder;    
+    text-transform: uppercase;
+    font-variant: small-caps;
+    font-size: 1.8rem;
+}
+.profile-area-details{
+    background-color: #00ffff00;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+.detail{
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+
+section.details-area{
+    background-color: #00ffff00;
+    padding: 20px;
+    margin: 70px auto;
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #00000036;
+    font-weight: bold;
+}
+.span1{
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.span2{
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.details-table{
+    padding: 10px;
+    background-color: #892be200;
+    width: 100%;
+    overflow-x: auto;
+}
+.details-table table{
+    background-color: #ffff0000;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    width: 100%;
+}
+.details-table table tr:nth-child(odd){
+    background-color: #e7e0fa
+  }
+.details-table table th{
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-right: 1px solid black;
+    padding: 10px 50px;
+}
+.details-table table td{
+    font-size: 1rem;
+    font-weight: bolder;
+    border-right: 1px solid black;
+    width: 40%;
+}
+
+section.graph-area{
+    padding: 30px 50px 100px 50px;
+    margin: 70px auto;
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #00000036;
+    font-weight: bold;
+}
+#chartContainer{
+    margin-top: 80px;
+}
+
+section.compare-area{
+    padding: 30px 50px 100px 50px;
+    margin: 70px auto;
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #00000036;
+    font-weight: bold;
+}
+
+
+section.std-details-area{
+    background-color: #00ffff00;
+    padding: 20px;
+    margin: 70px auto;
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #00000036;
+    font-weight: bold;
+}
+.std-details-table{
+    padding: 10px;
+    background-color: #892be200;
+    width: 100%;
+    overflow-x: auto;
+}
+.std-details-table table{
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    width: 100%;
+}
+.std-details-table table tr{
+    background-color: #ffffff00;
+}
+.std-details-table table tr:nth-child(odd){
+    background-color: #e7e0fa
+}
+.std-details-table table th{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 15px 0px;
+}
+.std-details-table table td{
+    font-size: 1rem;
+    font-weight: bold;    
+    padding: 15px 0px;
+    background-color: #ffffff00;
+}
+
+#course-dropdown{
+    width: 200px;
+    float: right;
+}
+
+.detailing-table{
+    border-radius: 8px;
+    margin: auto;
+    padding: 10px;
+}
+
+.det-qn{
+    font-weight: 700;
+}
+
+table.std-detailing{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+table.std-detailing th{
+    text-align: justify;
+    padding: 15px 8px 15px 30px !important;
+    width: 50%;
+    font-weight: 600;
+}
+table.std-detailing tr{
+    box-shadow: 0px 3px 10px #00000028;
+}
+table.std-detailing tr:hover{
+    background-color: #f4ecff;
+    cursor: pointer;
+}
+tr:nth-child(even){
+    background-color:#ffffff00;
+}
+
+
+
+
+
+
+
+
+
+
+
+.predict{
+    font-size: 1.5rem;
+    background-color: #ffffff00;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}

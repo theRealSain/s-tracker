@@ -1,0 +1,86 @@
+
+.profile-page{
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0);
+    width: 700px;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.404);
+}
+
+.profile-head{
+    font-weight: bolder;
+    text-align: center;
+    margin-left: -10px;
+}
+
+.profile-table{
+    background-color: rgba(255, 255, 0, 0); 
+    background-color: rgba(0, 255, 255, 0);
+    margin-bottom: 80px;
+}
+
+td.profile-table-value1{
+    width: 400px;
+    transform: translate(140px ,0px);
+}
+td.profile-table-value2{
+    width: 400px;
+    transform: translate(40px ,0px);
+}
+
+td{
+    font-weight: bold;
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    font-size: 1.3rem;
+    margin-left: 100px;
+}
+
+tr:nth-child(even){
+    background-color: initial;
+}
+
+
+
+#ad-pf-lg{
+    transform: translate(-190px ,0px);
+    font-size: 1rem;
+    background-color: rgb(175, 0, 0);
+}
+#ad-pf-lg a{
+    color: white;
+}
+
+#ad-pf-up{
+    transform: translate(-150px ,0px);
+    font-size: 1rem;
+}
+#ad-pf-up a{
+    color: white;
+}
+
+.parent-student{
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: fit-content;
+}
+
+#update-text{
+    width: 200px !important;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+  

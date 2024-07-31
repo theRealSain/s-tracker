@@ -1,0 +1,24 @@
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+
+# Load the data into a Pandas dataframe
+data = pd.read_csv("PredictionData.csv")
+
+# Split the data into training and testing sets
+X_train = data[["attendance", "internal", "t_rating", "p_rating"]]
+y_train = data["final_marks"]
+
+# Create a linear regression model and fit it to the training data
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Make predictions on new data
+X_new = [[80, 60, 85, 75]] # Example new data
+y_pred = model.predict(X_new)
+
+print(y_pred) # Prints the predicted final marks for the new data
+
+
+
+
+all others are 0 p_rating 70 or above final marks is 40

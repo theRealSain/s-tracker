@@ -1,0 +1,318 @@
+.layout-main{
+        background-color: rgba(0, 34, 128, 0);
+        width: 95%;
+        margin-left: 50px;
+        margin-top: 20px;
+        padding: 50px 0px 50px 50px;
+}
+
+.welcome{
+        font-weight: bolder;
+        font-size: 1.8rem;
+}
+
+
+
+
+.attendance{
+        margin-top: -50px;
+        width: 370px;
+        z-index: 0;
+}
+.student{
+        width: 370px;
+        margin-top: -35px;
+}
+.marklist{
+        width: 200px;
+        display: block;
+        margin-top: -25px;
+        margin-left: 80px;
+        background-color: white;
+}
+.teacher{
+        width: 250px;
+        margin-left: 50px;
+        margin-top: -40px;
+}
+.eval{
+        margin-top: -60px;
+        margin-left: 40px;
+        width: 335px;
+}
+.feed{
+        width: 250px;
+        margin-top: -20px;
+        margin-left: 60px;
+}
+.notification{
+        margin-top: -35px;
+        margin-left: 55px;
+        width: 320px;
+}
+.profile{
+        margin-top: -50px;
+        margin-left: 20px;
+        width: 320px;
+}
+.info{
+        width: 200px;
+        margin-top: -20px;
+        margin-left: 80px;
+}
+.marks{
+        margin-top: -30px;
+        width: 230px;
+        display: block;
+        margin-left: 70px;
+}
+img.graph{
+        width: 250px;
+        margin-top: -50px;
+        margin-left: 50px;
+}
+
+
+
+#i{
+        width: 18px;
+        height: 18px;
+        margin-left: 0px;
+        margin-right: 23px;
+        border-radius: 50%;
+        padding: 3px;
+        border: 2px solid #566A7F;
+}
+
+.eval-svg-main{
+        background-color: #566A7F;        
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        padding: 4px;
+}
+
+#svg-home{
+        margin-top: -5px;
+}
+
+.dash-icons{
+        margin-top: -5px;
+}
+
+.dash-cards{
+        width: 100%;
+        background-color: rgba(0, 128, 0, 0);
+        display:grid;
+        grid-template-columns: repeat(3,minmax(200px, 400px));
+        grid-gap: 80px;
+}
+
+.card{
+        width: 400px;
+        height: 200px;
+        padding: 20px 0px 0px 20px;
+        border-radius: 7px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.144);
+        background-color: rgb(255, 255, 255);
+        z-index: -1;
+}
+.layout-head{
+        margin-left: -20px;
+        background-color: rgba(127, 255, 212, 0);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        background-position: 10px;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        z-index: 1;
+}
+
+button.del a{
+        text-decoration: none;
+      }
+      
+      button.del{
+        margin: auto;
+        display: block;
+        background-color: rgb(102, 75, 199);
+        border: none;
+        padding: 10px 30px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bolder;
+        font-size: 1rem;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.534);
+        cursor: pointer;
+      }
+      button.del:hover{
+        background-color: rgb(85, 54, 196);
+      }
+      button.del:active{
+        background-color: rgb(85, 54, 196);
+        box-shadow: none;
+      }
+
+
+
+#active-side-menu{
+        background-color: #2f00ff3d;
+        border-radius: 6px;
+        width: 228px;
+        margin-left: 16px;
+        font-weight: 500;
+        color: rgb(117, 93, 255);
+}
+
+      
+
+
+
+
+@media (max-width: 1765px){
+        .dash-cards{
+                grid-template-columns: repeat(3,minmax(100px, 360px));
+        }
+}
+
+@media (max-width: 1705px){
+        .layout-main{
+                margin-left: 0%;
+        }
+
+        .layout-head{
+                font-size: 1.5rem;
+                background-size: 45px;
+        }
+}
+
+
+@media (max-width: 1635px){
+        .dash-cards{
+                grid-template-columns: repeat(3,minmax(200px, 500px));
+        }
+        .card{
+                width: 350px;
+                height: 280px;
+        }
+}
+
+
+@media (max-width: 1440px){
+        .card{
+                width: 340px;
+                height: 250px;
+        }
+        .dash-cards{
+                margin-left: -15px;
+                grid-gap: 50px;
+        }
+}
+
+
+@media (max-width: 1399.98px){
+        .dash-cards{
+                grid-template-columns: repeat(2,minmax(200px, 500px));
+        }
+        .card{
+                width: 450px;
+        }
+}
+
+@media (max-width: 1260px){
+        .card{
+                width: 400px;
+        }
+}
+
+
+@media (max-width: 1199.98px){
+        .dash-cards{
+                grid-template-columns: repeat(2,minmax(200px, 600px));
+        }
+        .card{
+              width: 480px;
+        }
+}
+
+@media (max-width: 1060px){
+        .card{
+                width: 440px;
+          }
+}
+
+@media (max-width: 991.98px){
+        .card{
+                width: 390px;
+          }
+}
+
+@media (max-width: 865px){
+        .card{
+                width: 330px;
+                height: 230px;
+          }
+}
+
+@media (max-width: 767.98px){
+        .card{
+                width: 300px;
+                height: 210px;
+          }
+}
+
+@media (max-width: 685px){
+        .card{
+                width: 290px;
+                height: 200px;
+          }
+}
+
+@media (max-width: 655px){
+        .dash-cards{
+                grid-template-columns: repeat(1,minmax(200px, 600px));
+        }
+        .card{
+                margin-left: 30px;
+                width: 95%;
+                height: 250px;
+          }
+}
+
+@media (max-width: 495px){
+        .layout-head{
+                font-size: 1.4rem;
+                background-size: 40px;
+        }
+        .card{
+                margin-left: 20px;
+                border-radius: 8px;
+          }
+}
+
+@media (max-width: 390px){
+        .layout-head{
+                font-size: 1.1rem;
+                background-size: 32px;
+        }
+        .card{
+                margin-left: 20px;
+          }
+}
+
+@media (max-width: 290px){
+        .layout-head{
+                background-image: none;
+                margin-left: -30px;
+                font-size: 0.9rem;
+                background-size: 25px;
+        }
+        .card{
+                margin-left: 10px;
+                width: 85%;
+                height: 200px;
+          }
+}
+
+
+
