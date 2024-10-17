@@ -1,4 +1,7 @@
 # s-tracker
+
+![S Tracker](https://raw.githubusercontent.com/theRealSain/s-tracker/master/s-tracker.png)
+
 The project **s-tracker** make student performance management Analysis with Marks, Attendance, Teachers and Parents Valuation Project is designed to provide valuable insights to teachers and parents about a student's academic progress. The project includes an analysis of the student's marks and attendance records, as well as input from teachers and parents regarding the student's performance. By utilizing this project, teachers and parents can gain a better understanding of a student's strengths and weaknesses, and use this information to improve the student's performance. Ultimately, this project is intended to help teachers and parents work together to ensure that the student has the best possible chance for success in their academic future. 
 
 ### Software Configuration 
